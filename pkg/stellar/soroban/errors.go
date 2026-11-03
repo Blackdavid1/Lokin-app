@@ -3,7 +3,7 @@ package soroban
 import (
 	"fmt"
 
-	"github.com/blurbeast/moistello-contracts/pkg/apperrors"
+	"github.com/blurbeast/loki-app/pkg/apperrors"
 )
 
 // ContractType identifies the origin contract of a Soroban error.

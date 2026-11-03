@@ -1,4 +1,4 @@
-# rustfmt configuration for Moistello Contracts
+# rustfmt configuration for Loki-app
 # See: https://rust-lang.github.io/rustfmt/
 
 edition = "2021"

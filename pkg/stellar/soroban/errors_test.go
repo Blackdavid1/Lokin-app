@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/blurbeast/moistello-contracts/pkg/apperrors"
+	"github.com/blurbeast/loki-app/pkg/apperrors"
 )
 
 func TestClassifySorobanError_Circle(t *testing.T) {

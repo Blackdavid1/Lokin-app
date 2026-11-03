@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# deploy-upgrade.sh — Moistello contract deployment and upgrade helper
+# deploy-upgrade.sh — Loki-app contract deployment and upgrade helper
 #
 # Usage:
 #   ./scripts/deploy-upgrade.sh [OPTIONS]
@@ -104,7 +104,7 @@ if [[ -z "$ADMIN_SECRET" ]]; then
   exit 1
 fi
 
-log_section "Moistello Deployment — $NETWORK"
+log_section "Loki-app Deployment — $NETWORK"
 log_info "Admin public key : $ADMIN_PUBLIC"
 log_info "Admin identity   : $ADMIN_IDENTITY"
 log_info "RPC URL          : $RPC_URL"

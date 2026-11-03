@@ -1,4 +1,4 @@
-# Clippy configuration for Moistello Contracts
+# Clippy configuration for Loki-app
 # See: https://rust-lang.github.io/rust-clippy/stable/index.html
 
 # Enforce a cognitive complexity limit to keep functions readable.

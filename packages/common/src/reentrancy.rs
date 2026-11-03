@@ -5,7 +5,7 @@ const REENTRANCY_KEY: Symbol = symbol_short!("reent");
 /// # Canonical Reentrancy Guard — use this, not a local copy
 ///
 /// `ReentrancyGuard` is the **single, authoritative** reentrancy protection
-/// implementation for all Moistello contracts. Every contract that needs
+/// implementation for all Loki-app contracts. Every contract that needs
 /// reentrancy protection must import this from `common::reentrancy` rather
 /// than maintaining its own local copy. This prevents security fixes from
 /// silently diverging between contracts.

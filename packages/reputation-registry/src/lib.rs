@@ -9,7 +9,7 @@ use soroban_sdk::{contract, contractimpl, Address, Env};
 
 /// # Reputation Registry Contract
 ///
-/// On-chain reputation system (MoiScore) for Moistello circle members.
+/// On-chain reputation system (MoiScore) for Loki-app circle members.
 /// Tracks payment history, circle completions, defaults, and applies inactivity decay.
 ///
 /// ## Example: Initialize the registry

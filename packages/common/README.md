@@ -1,6 +1,6 @@
 # common — Shared Soroban Library
 
-Purpose: Shared, audit-friendly primitives used by every Moistello contract. Not a deployable contract itself — it is an `rlib` dependency (no `cdylib`). Provides access control, pause/emergency-stop, reentrancy guards, upgrade proxy helpers, VRF (SHA-256 hash chain + Ed25519 proofs), safe/fixed-point math, token transfer helpers, and typed error envelopes. All contracts must route auth, pause, and reentrancy through this module rather than maintaining local copies.
+Purpose: Shared, audit-friendly primitives used by every Loki-app contract. Not a deployable contract itself — it is an `rlib` dependency (no `cdylib`). Provides access control, pause/emergency-stop, reentrancy guards, upgrade proxy helpers, VRF (SHA-256 hash chain + Ed25519 proofs), safe/fixed-point math, token transfer helpers, and typed error envelopes. All contracts must route auth, pause, and reentrancy through this module rather than maintaining local copies.
 
 ## Storage keys
 All keys live in **instance storage** (small, frequently read):

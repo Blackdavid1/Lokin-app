@@ -10,7 +10,7 @@ use soroban_sdk::{contract, contractimpl, Address, Env};
 
 /// # Staking Contract
 ///
-/// Token staking with time-weighted voting power for Moistello governance.
+/// Token staking with time-weighted voting power for Loki-app governance.
 /// Supports staking, unstaking, claiming rewards, and slashing.
 ///
 /// ## Example: Initialize staking

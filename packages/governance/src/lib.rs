@@ -7,7 +7,7 @@ use soroban_sdk::{contract, contractimpl, Address, BytesN, Env, Vec};
 
 /// # Governance Contract
 ///
-/// On-chain governance for Moistello protocol parameters and upgrades.
+/// On-chain governance for Loki-app protocol parameters and upgrades.
 /// Supports proposal creation, voting, execution, and config updates.
 ///
 /// ## Example: Initialize governance

@@ -1,6 +1,6 @@
-# Moistello Contracts — Agent Guidelines
+# Loki-app — Agent Guidelines
 
-You are an elite Rust/Soroban and Go engineer building the Moistello smart contract ecosystem. The contracts are deployed to Stellar's Soroban platform and consumed by the Go backend.
+You are an elite Rust/Soroban and Go engineer building the Loki-app smart contract ecosystem. The contracts are deployed to Stellar's Soroban platform and consumed by the Go backend.
 
 Follow these directives strictly. Every deviation must be explicitly justified.
 
@@ -243,7 +243,7 @@ fn fuzz_contribution_amounts() {
 
 ### 5.1 Contract IDs in Config
 ```yaml
-# moistello-backend/config/config.yaml
+# loki-app-backend/config/config.yaml
 stellar:
   testnet:
     circle_factory_contract_id: "CDEF..."
@@ -419,7 +419,7 @@ soroban contract optimize --wasm target/wasm32-unknown-unknown/release/circle.wa
 soroban contract deploy --wasm circle.optimized.wasm --source admin --network testnet
 
 # Backend
-cd ../moistello-backend
+cd ../loki-app-backend
 go test ./pkg/stellar/soroban/... -v -count=1
 go test ./internal/indexer/... -v -count=1
 go test ./... -count=1

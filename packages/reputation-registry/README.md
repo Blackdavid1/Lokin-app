@@ -1,6 +1,6 @@
 # reputation-registry — On-Chain MoiScore
 
-Purpose: On-chain reputation scoring for Moistello participants. Maintains per-user MoiScore (0–1000), tier (Bronze→Diamond), activity history, streaks, and completion/default counts. Tier determines benefits such as circle size limits, contribution caps, and collateral requirements. Circle payout events feed score updates via `record_on_time_payment`, `record_circle_completion`, `record_default`, and `apply_inactivity_decay`.
+Purpose: On-chain reputation scoring for Loki-app participants. Maintains per-user MoiScore (0–1000), tier (Bronze→Diamond), activity history, streaks, and completion/default counts. Tier determines benefits such as circle size limits, contribution caps, and collateral requirements. Circle payout events feed score updates via `record_on_time_payment`, `record_circle_completion`, `record_default`, and `apply_inactivity_decay`.
 
 ## Entry points
 

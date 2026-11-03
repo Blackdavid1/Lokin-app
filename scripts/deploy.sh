@@ -2,7 +2,7 @@
 set -e
 
 NETWORK="${1:-testnet}"
-echo "=== Moistello Contract Deployment — $NETWORK ==="
+echo "=== Loki-app Contract Deployment — $NETWORK ==="
 
 # Load config
 if [ "$NETWORK" = "testnet" ]; then
@@ -15,8 +15,8 @@ if [ "$NETWORK" = "testnet" ]; then
         echo "ERROR: Testnet admin keys not configured."
         echo ""
         echo "  Generate a testnet keypair:"
-        echo "    stellar keys generate moistello-testnet --network testnet"
-        echo "    stellar keys show moistello-testnet"
+        echo "    stellar keys generate loki-app-testnet --network testnet"
+        echo "    stellar keys show loki-app-testnet"
         echo ""
         echo "  Then export the keys:"
         echo "    export TESTNET_ADMIN_PUBLIC_KEY=\"<public-key>\""
@@ -40,7 +40,7 @@ else
     fi
 fi
 
-IDENTITY="moistello-deployer"
+IDENTITY="loki-app-deployer"
 echo "Configuring identity: $IDENTITY"
 soroban config identity generate "$IDENTITY" \
     --rpc-url "$RPC_URL" \

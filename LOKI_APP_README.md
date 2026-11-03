@@ -1,4 +1,4 @@
-# Moistello Smart Contracts
+# Loki-app Smart Contracts
 
 Rust/Soroban smart contracts implementing ROSCA (Rotating Savings and Credit Association) protocol for 1.7B+ unbanked adults on Stellar.
 

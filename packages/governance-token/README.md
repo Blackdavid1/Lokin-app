@@ -1,6 +1,6 @@
 # governance-token — Governance Token (SEP-41 / ST-20-like)
 
-Purpose: Fungible governance token with admin controls: mint/burn/clawback, freeze/unfreeze accounts, allowlist mode, and admin transfer. Used for governance voting power and membership-weighted actions across the Moistello ecosystem.
+Purpose: Fungible governance token with admin controls: mint/burn/clawback, freeze/unfreeze accounts, allowlist mode, and admin transfer. Used for governance voting power and membership-weighted actions across the Loki-app ecosystem.
 
 The token implements the [SEP-41](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0041.md) (Soroban Token Interface) surface — canonical function names, arguments and semantics — and it is built on top of [`soroban-token-sdk`](https://crates.io/crates/soroban-token-sdk):
 

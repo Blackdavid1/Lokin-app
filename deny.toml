@@ -1,4 +1,4 @@
-# cargo-deny configuration for Moistello Contracts
+# cargo-deny configuration for Loki-app
 # See: https://embarkstudios.github.io/cargo-deny/
 
 [graph]

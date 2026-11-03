@@ -1,4 +1,4 @@
-/// Verifiable Random Function (VRF) for Moistello contracts.
+/// Verifiable Random Function (VRF) for Loki-app contracts.
 ///
 /// This module replaces the previous PRNG-based randomness (`env.prng()`) with
 /// a cryptographically verifiable random function built on:

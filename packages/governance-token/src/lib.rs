@@ -12,7 +12,7 @@ use soroban_sdk::{contract, contractimpl, Address, Env, MuxedAddress, String};
 ///
 /// SEP-41 (Stellar Token Interface) compatible governance token with extra
 /// administrative controls: mint, burn, clawback, freeze/unfreeze and
-/// allowlist mode. Used for voting power in Moistello governance.
+/// allowlist mode. Used for voting power in Loki-app governance.
 ///
 /// The token surface follows SEP-41: `balance`, `allowance`, `approve`,
 /// `transfer`, `transfer_from`, `burn`, `burn_from`, `decimals`, `name` and
@@ -35,7 +35,7 @@ use soroban_sdk::{contract, contractimpl, Address, Env, MuxedAddress, String};
 /// let client = GovernanceTokenClient::new(&env, &token_id);
 /// client.initialize(
 ///     &admin,
-///     &soroban_sdk::String::from_str(&env, "Moistello Governance Token"),
+///     &soroban_sdk::String::from_str(&env, "Loki-app Governance Token"),
 ///     &soroban_sdk::String::from_str(&env, "MOIST"),
 ///     &18,
 /// );

@@ -1,8 +1,8 @@
 #![no_std]
 
-/// # Common Utilities for Moistello Contracts
+/// # Common Utilities for Loki-app
 ///
-/// This crate provides shared utilities used across all Moistello Soroban contracts:
+/// This crate provides shared utilities used across all Loki-app Soroban contracts:
 /// - **math**: Safe arithmetic operations (checked add, sub, mul, div, fee calculation)
 /// - **pause**: Emergency pause/unpause functionality
 /// - **reentrancy**: Reentrancy guard for contract protection

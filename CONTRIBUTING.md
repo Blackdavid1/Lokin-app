@@ -1,4 +1,4 @@
-# Contributing to moistello-contracts
+# Contributing to loki-app
 
 ## Prerequisites
 

@@ -7,7 +7,7 @@ use soroban_sdk::{contract, contractimpl, Address, Env};
 
 /// # Treasury Contract
 ///
-/// Fee collection and fund management for Moistello circles.
+/// Fee collection and fund management for Loki-app circles.
 /// Collects fees from circles and allows admin withdrawals.
 ///
 /// ## Example: Initialize the treasury

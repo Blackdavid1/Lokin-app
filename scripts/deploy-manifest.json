@@ -1,6 +1,6 @@
 {
   "network": "testnet",
-  "admin_identity": "moistello-deployer",
+  "admin_identity": "loki-app-deployer",
   "contracts": [
     {
       "name": "circle",

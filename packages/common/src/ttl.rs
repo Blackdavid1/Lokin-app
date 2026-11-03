@@ -1,4 +1,4 @@
-//! TTL (time-to-live) extension helpers shared by all Moistello contracts.
+//! TTL (time-to-live) extension helpers shared by all Loki-app contracts.
 //!
 //! Soroban archives persistent and instance entries once their TTL expires,
 //! so any contract that reads or writes them must keep extending that TTL.
